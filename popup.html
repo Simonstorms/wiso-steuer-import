@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>WISO CSV Import</h1>
+
+  <div class="upload-area" id="uploadArea">
+    <label for="csvFile">
+      <span id="uploadText">CSV-Datei hier auswaehlen</span>
+      <span class="file-name" id="fileName"></span>
+    </label>
+    <input type="file" id="csvFile" accept=".csv">
+  </div>
+
+  <p class="category" id="category"></p>
+
+  <div class="info-bar" id="infoBar">
+    <span id="rowCount"></span>
+  </div>
+
+  <div class="preview-container" id="previewContainer">
+    <table class="preview-table">
+      <thead>
+        <tr>
+          <th>Datum</th>
+          <th>Bezeichnung</th>
+          <th>Betrag</th>
+          <th>Hinweis</th>
+        </tr>
+      </thead>
+      <tbody id="previewBody"></tbody>
+    </table>
+  </div>
+
+  <div class="actions">
+    <button class="btn btn-primary" id="importBtn" disabled>Importieren</button>
+    <button class="btn btn-secondary" id="configBtn">Selektoren</button>
+  </div>
+
+  <div class="status" id="status"></div>
+
+  <script src="csv-parser.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
