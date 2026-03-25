@@ -13,7 +13,7 @@
 ---
 
 <p align="center">
-  <img src="store-assets/screenshot.png" width="380" alt="Screenshot">
+  <video src="store-assets/demo.mp4" width="600" autoplay loop muted></video>
 </p>
 
 ## Features

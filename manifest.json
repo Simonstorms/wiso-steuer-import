@@ -3,7 +3,7 @@
   "name": "WISO Steuer Import",
   "version": "1.1.0",
   "description": "CSV-Daten und Excel-Tabellen direkt in WISO Steuer Web importieren. Einfach einfuegen oder CSV hochladen.",
-  "permissions": ["activeTab", "scripting", "storage"],
+  "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
