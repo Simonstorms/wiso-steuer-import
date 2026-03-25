@@ -1,0 +1,28 @@
+WISO Steuer Import makes data entry in WISO Steuer Web effortless. Import CSV files or pasted spreadsheet data directly into WISO Steuer input tables, without tedious manual typing.
+
+FEATURES:
+- Upload and import CSV files directly
+- Paste data from Excel or Google Sheets via copy & paste
+- Automatic delimiter detection (comma, semicolon, tab)
+- Preview data before importing
+- Support for German number formats (1.234,56)
+- UTF-8 and ISO-8859-1 encoding detection
+
+HOW IT WORKS:
+1. Open WISO Steuer Web and navigate to the desired input table
+2. Click the WISO Steuer Import icon in the browser toolbar
+3. Upload a CSV file or paste copied data
+4. Review the preview and click "Importieren"
+5. Data is automatically entered into the table
+
+SUPPORTED FORMATS:
+- CSV files with columns: Datum, Bezeichnung, Betrag, Hinweis
+- Tab-separated data (copied from Excel)
+- German date formats (e.g. 01.03.)
+- German amount formats (e.g. 1.234,56 EUR)
+
+PRIVACY:
+All data is processed locally in your browser. No data is transmitted to external servers.
+
+NOTE:
+This extension is an independent community tool and is not affiliated with Buhl Data Service GmbH or the WISO Steuer brand.

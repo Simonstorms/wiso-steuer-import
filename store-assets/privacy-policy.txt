@@ -1,0 +1,26 @@
+Privacy Policy for WISO Steuer Import
+
+Last updated: 2026-03-25
+
+WISO Steuer Import is a browser extension that helps import CSV data into WISO Steuer Web.
+
+DATA COLLECTION:
+This extension does NOT collect, store, or transmit any personal data or user information to external servers.
+
+DATA PROCESSING:
+All data processing happens entirely within your local browser. CSV files and pasted data are parsed locally and injected into the active web page. No data leaves your device.
+
+PERMISSIONS:
+- activeTab: Required to interact with the currently active WISO Steuer Web tab.
+- scripting: Required to inject data into the WISO Steuer Web input tables.
+- storage: Used to store local preferences within the browser.
+- host_permissions: Required to enable script injection on the active page.
+
+THIRD-PARTY SERVICES:
+This extension does not use any third-party analytics, tracking, or data collection services.
+
+CHANGES:
+Any changes to this privacy policy will be reflected in an updated version of this document.
+
+CONTACT:
+For questions regarding this privacy policy, please open an issue on the extension's GitHub repository.

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "WISO Steuer CSV Import",
-  "version": "1.0.0",
-  "description": "Import CSV data into WISO Steuer tables",
+  "name": "WISO Steuer Import",
+  "version": "1.1.0",
+  "description": "CSV-Daten und Excel-Tabellen direkt in WISO Steuer Web importieren. Einfach einfuegen oder CSV hochladen.",
   "permissions": ["activeTab", "scripting", "storage"],
   "action": {
     "default_popup": "popup.html",
@@ -12,14 +12,7 @@
       "128": "icons/icon128.png"
     }
   },
-  "content_scripts": [
-    {
-      "matches": ["*://*.buhl.de/*", "*://*.wiso-steuer.de/*"],
-      "js": ["csv-parser.js", "content.js"],
-      "run_at": "document_idle"
-    }
-  ],
-  "host_permissions": ["*://*.buhl.de/*", "*://*.wiso-steuer.de/*"],
+  "host_permissions": ["<all_urls>"],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",

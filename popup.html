@@ -5,11 +5,18 @@
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h1>WISO CSV Import</h1>
+  <div class="header">
+    <img src="icons/icon48.png" alt="Logo" class="header-logo">
+    <h1>WISO Steuer Import</h1>
+  </div>
+
+  <textarea id="pasteArea" placeholder="Daten hier einfuegen (aus Excel, Tab-getrennt)&#10;&#10;01.03.&#9;Flyeralarm&#9;20,16 €"></textarea>
+
+  <div class="divider"><span>oder</span></div>
 
   <div class="upload-area" id="uploadArea">
     <label for="csvFile">
-      <span id="uploadText">CSV-Datei hier auswaehlen</span>
+      <span id="uploadText">CSV-Datei auswaehlen</span>
       <span class="file-name" id="fileName"></span>
     </label>
     <input type="file" id="csvFile" accept=".csv">
@@ -37,7 +44,6 @@
 
   <div class="actions">
     <button class="btn btn-primary" id="importBtn" disabled>Importieren</button>
-    <button class="btn btn-secondary" id="configBtn">Selektoren</button>
   </div>
 
   <div class="status" id="status"></div>

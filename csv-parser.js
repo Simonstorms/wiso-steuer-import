@@ -71,6 +71,31 @@ function parseCsv(content) {
   return { category, rows }
 }
 
+function parsePasted(text) {
+  const lines = text.split(/\r?\n/).filter(l => l.trim() !== "")
+  const rows = []
+
+  for (const line of lines) {
+    let parts = line.split("\t")
+    if (parts.length < 2) parts = line.split(/\s{2,}/)
+    if (parts.length < 2) continue
+
+    parts = parts.map(p => p.trim()).filter(Boolean)
+
+    const datumMatch = parts[0].match(/^\d{1,2}\.\d{1,2}\.?$/)
+    if (!datumMatch) continue
+
+    const datum = parts[0].endsWith(".") ? parts[0] : parts[0] + "."
+    const bezeichnung = parts[1] || ""
+    const betrag = parts.length >= 3 ? parseAmount(parts[2]) : 0
+    const hinweis = parts.length >= 4 ? parts[3] : ""
+
+    rows.push({ datum, bezeichnung, betrag, hinweis })
+  }
+
+  return { category: "", rows }
+}
+
 if (typeof module !== "undefined") {
-  module.exports = { parseCsv, parseAmount, detectDelimiter }
+  module.exports = { parseCsv, parsePasted, parseAmount, detectDelimiter }
 }

@@ -1,0 +1,28 @@
+WISO Steuer Import erleichtert die Dateneingabe in WISO Steuer Web. Importiere CSV-Dateien oder kopierte Tabellendaten direkt in die WISO Steuer Eingabetabellen, ohne muehsames manuelles Abtippen.
+
+FUNKTIONEN:
+- CSV-Dateien direkt hochladen und importieren
+- Daten aus Excel oder Google Sheets per Copy & Paste einfuegen
+- Automatische Erkennung von Trennzeichen (Komma, Semikolon, Tab)
+- Vorschau der Daten vor dem Import
+- Unterstuetzung fuer deutsche Zahlenformate (1.234,56)
+- UTF-8 und ISO-8859-1 Encoding-Erkennung
+
+SO FUNKTIONIERT ES:
+1. Oeffne WISO Steuer Web und navigiere zur gewuenschten Eingabetabelle
+2. Klicke auf das WISO Steuer Import Symbol in der Browser-Toolbar
+3. Lade eine CSV-Datei hoch oder fuege kopierte Daten ein
+4. Pruefe die Vorschau und klicke auf "Importieren"
+5. Die Daten werden automatisch in die Tabelle eingetragen
+
+UNTERSTUETZTE FORMATE:
+- CSV-Dateien mit Spalten: Datum, Bezeichnung, Betrag, Hinweis
+- Tab-getrennte Daten (aus Excel kopiert)
+- Deutsche Datumsformate (z.B. 01.03.)
+- Deutsche Betragsformate (z.B. 1.234,56 EUR)
+
+DATENSCHUTZ:
+Alle Daten werden lokal in deinem Browser verarbeitet. Es werden keine Daten an externe Server uebertragen.
+
+HINWEIS:
+Diese Extension ist ein unabhaengiges Community-Tool und steht in keiner Verbindung zu Buhl Data Service GmbH oder der Marke WISO Steuer.
