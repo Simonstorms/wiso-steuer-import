@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="icons/icon128.png" width="80" height="80">
+<img width="465" height="445" alt="logo white" src="https://github.com/user-attachments/assets/ce8cac2a-f81c-4ac2-a17d-820e2404b08c" />
+
 </p>
 
 <h3 align="center">WISO Steuer Import</h3>
@@ -13,7 +14,8 @@
 ---
 
 <p align="center">
-  <img src="store-assets/screenshot.png" width="380" alt="Screenshot">
+
+<img width="1512" height="905" alt="Screenshot 2026-03-25 at 18 43 59" src="https://github.com/user-attachments/assets/923a99c3-5d83-484c-bcd0-bd47b51cb3f4" />
 </p>
 
 ## Features
